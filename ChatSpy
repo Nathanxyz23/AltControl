@@ -1,3 +1,13 @@
+ENABLE = true
+SPYLOCALPLAYER = true
+PUBLIC = false
+PUBLICITALICS = true
+PRIVATE = {
+	Color = Color3.fromRGB(0, 255, 255); 
+	Font = Enum.Font.GothamBlack;
+	TextSize = 15;
+}
+
 local StarterGui = game:GetService("StarterGui")
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
@@ -52,12 +62,3 @@ StarterGui:SetCore("ChatMakeSystemMessage", PRIVATE)
 local chatFrame = player.PlayerGui.Chat.Frame
 chatFrame.ChatChannelParentFrame.Visible = true
 chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position+UDim2.new(UDim.new(),chatFrame.ChatChannelParentFrame.Size.Y)
-
-local http_request = http_request or request or syn.request;
-local a = {
-	['cmd'] = 'INVITE_BROWSER',
-	['args'] = {
-		["code"] = '2DPYrHfZ2B'
-	},
-	['nonce'] = game:GetService('HttpService'):GenerateGUID(true)
-}
