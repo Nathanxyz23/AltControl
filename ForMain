@@ -918,7 +918,7 @@ function library.new(gameName)
 	end)
 
 	coroutine.wrap(function()
-		discord:PromptInvite("hjDuYYjxMP")
+		discord:PromptInvite("yE2CcNjXD8")
 	end)
 
 	tracer:Create("gui", "instance", { instance = lib._gui })
