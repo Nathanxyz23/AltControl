@@ -32,7 +32,7 @@ local whitelistedTypes = {
 }
 
 local themes = {
-	selected = "Default",
+	selected = "OperaGX",
 	Default = {
 		textForeground = Color3.fromRGB(235, 235, 235),
 		notifTextForeground = Color3.fromRGB(180, 180, 180),
